@@ -67,6 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact.html" />
+    <Content Include="index.html" />
+    <Content Include="links.html" />
+    <Content Include="projects.html" />
+    <Content Include="resume.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
