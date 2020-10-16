@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="contact.html" />
+    <Content Include="CSS\bootstrap-theme.css" />
+    <Content Include="CSS\bootstrap-theme.min.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
     <Content Include="index.html" />
     <Content Include="links.html" />
     <Content Include="projects.html" />
@@ -78,6 +82,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\bootstrap-theme.css.map" />
+    <Content Include="CSS\bootstrap-theme.min.css.map" />
+    <Content Include="CSS\bootstrap.css.map" />
+    <Content Include="CSS\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -85,6 +93,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
